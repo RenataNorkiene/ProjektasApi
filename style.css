@@ -1,5 +1,5 @@
 body{
-    background: #eee5e9;
+    background: #f7f2db;
 }
 
 #data{
@@ -12,7 +12,7 @@ body{
 
 
 article{
-    background:  #eee5e9;
+    background: #f5ebbd;
     border: none;
     box-shadow: 2px 2px 6px 8px rgba(0,0,0,0.3);
     border-radius: 20px;
