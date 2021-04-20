@@ -10,13 +10,28 @@ body{
     align-items: center;
 } 
 
+#section{
+    background: #e79d2e;
+    border-radius: 20px 20px 0px 0px;
+    border: none;
+    color:rgb(7, 7, 7);
+    padding: 10px;
+    font-weight: 600;
+}
+
+#abstract{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
 
 article{
-    
+    display: grid;
+    grid-template-rows: auto auto auto 1fr auto auto;
     background: #f5ebbd;
-    border: none;
-    box-shadow: 2px 2px 6px 8px rgba(0,0,0,0.3);
-    border-radius: 20px;
+    border: 5px solid #e79d2e;
+    box-shadow: 2px 2px 26px 8px rgba(0,0,0,0.3);
+    border-radius: 25px;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -25,25 +40,16 @@ article{
 
 article:hover {
     transform: translateY(5px);
-    box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 66px 8px rgba(0,0,0,0.3);
 }
 
 img{
     width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
-#text{
-    padding: 0 20px 20px;
-    display: grid;
-    grid-template-rows: repeat(2, 90px);
-
-}
-
 
 button{
-    background: #ef6f6c;
-    border-radius: 20px;
+    background: #e79d2e;
+    border-radius: 0px 0px 20px 20px;
     border: none;
     color:#fff;
     padding: 10px;
@@ -51,6 +57,7 @@ button{
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
+    
 
 }
 
