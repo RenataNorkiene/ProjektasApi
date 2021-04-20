@@ -12,6 +12,7 @@ body{
 
 
 article{
+    
     background: #f5ebbd;
     border: none;
     box-shadow: 2px 2px 6px 8px rgba(0,0,0,0.3);
@@ -21,6 +22,7 @@ article{
     height: 100%;
     transition: transform .3s;
 }
+
 article:hover {
     transform: translateY(5px);
     box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.3);
@@ -33,6 +35,8 @@ img{
 }
 #text{
     padding: 0 20px 20px;
+    display: grid;
+    grid-template-rows: repeat(2, 90px);
 
 }
 
