@@ -22,6 +22,7 @@ const fechData = async () => {
             abstract.innerText = oneArticle.abstract;
             title.innerText = oneArticle.title;
             shortUrl.href = oneArticle.short_url;
+            shortUrl.id = "shortUrl";
             shortUrl.innerText = "Read more";
             publishedDate.innerText = oneArticle.published_date.slice(0, 10);
             dataContainer.appendChild(article);
